@@ -1,0 +1,44 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-j": "editor::MoveLineDown"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "alt-down": "editor::MoveLineDown"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-k": "editor::MoveLineUp"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "alt-up": "editor::MoveLineUp"
+    }
+  },
+  {
+     "context": "vim_mode == normal || vim_mode == visual",
+     "bindings": {
+       "alt-w": "vim::HelixJumpToWord"
+     }
+   }
+]
