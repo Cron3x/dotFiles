@@ -1,0 +1,72 @@
+{
+  "lsp": {
+    "ols": {
+      "initialization_options": {
+        "enable_hover": true,
+        "enable_snippets": true,
+        "enable_procedure_snippet": true,
+        "enable_completion_matching": true,
+        "enable_references": true,
+        "enable_document_symbols": true,
+        "enable_format": true,
+        "enable_document_links": true,
+        "collections": [
+          {
+            "name": "shared",
+            "path": "/usr/libexec/Odin/"
+          }
+        ]
+      }
+    },
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "build": {
+            "onSave": true,
+            "executable": "pdflatex",
+            "args": ["--shell-escape", "%f"]
+          }
+        }
+      }
+    }
+  },
+  "context_servers": {
+    "whoami": {
+      "enabled": true,
+      "remote": false,
+      "command": "whoami",
+      "args": []
+    }
+  },
+  "disable_ai": false,
+  "language_models": ,
+  "cli_default_open_behavior": "new_window",
+  "project_panel": {
+    "dock": "right"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "languages": {
+    "Rust": {
+      "format_on_save": "off",
+    },
+  },
+  "ui_font_family": "GeistMono Nerd Font",
+  "buffer_font_family": "GeistMono Nerd Font Mono",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
+  "base_keymap": "Emacs",
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+}
