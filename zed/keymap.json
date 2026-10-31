@@ -45,7 +45,7 @@
   {
      "context": "vim_mode == normal || vim_mode == visual",
      "bindings": {
-       "alt-w": "vim::HelixJumpToWord"
+       "s": "vim::HelixJumpToWord"
      }
    },
    {
